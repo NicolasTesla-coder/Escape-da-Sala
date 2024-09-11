@@ -22,6 +22,8 @@ avancaflor.forEach(button => {
     button.addEventListener('click', function(){
         if (salaflor == 1) {
             gaveta = true
+        }else if (salaflor == 2) {
+            gaveta = false
         }
         salaflor += 1
         const atual = document.querySelector('.ativo');
