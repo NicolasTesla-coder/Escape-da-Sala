@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você acorda dentro de uma sala trancada sem saber como foi parar ai dentro, e a unica coisa que você pensa é em fugir.</p>
+            <button class="btn-proximo" data-proximo="1">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="img/1.png" alt="" width="65%">
+            <button class="btn-proximo-flor" data-proximo="3">Ir para Esquerda</button>
+            <button class="btn-proximo" data-proximo="1b">Ir para perto da Porta</button>
+            <button class="btn-proximo-estante" data-proximo="2">Ir para Direita</button>
+        </div>
+
+        <div class="passo" id="passo-1b">
+            <img src="img/12.png" alt="" width="65%">
+            <button class="btn-proximo" data-proximo="1">Voltar</button>
+            <button class="btn-senha" data-proximo="1b">Colocar senha</button>
+        </div>
+
+        <div class="passo" id="passo-1c">
+            <img src="img/2.png" alt="" width="65%">
+            <button class="btn-proximo" data-proximo="final">Fugir</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/3.png" alt="" width="65%">
+            <button class="btn-proximo" data-proximo="1">Ir para Esquerda</button>
+        </div>
+
+        <div class="passo" id="passo-2a">
+            <img src="img/3.png" alt="" width="65%">
+            <button class="btn-proximo" data-proximo="1">Ir para Esquerda</button>
+            <button class="btn-proximo" data-proximo="2b">Chega perto da estante de livros</button>
+        </div>
+
+        <div class="passo" id="passo-2b">
+            <img src="img/4.png" alt="" width="65%">
+            <button class="btn-proximo" data-proximo="2b">Verde</button>
+            <button class="btn-proximo" data-proximo="2b1">Vermelho</button>
+            <button class="btn-proximo" data-proximo="2b">Roxo</button>
+            <button class="btn-proximo" data-proximo="2b">Ciano</button>
+        </div>
+
+        <div class="passo" id="passo-2b1">
+            <img src="img/5.png" alt="" width="65%">
+            <button class="btn-proximo" data-proximo="2b">Verde</button>
+            <button class="btn-proximo" data-proximo="2b">Vermelho</button>
+            <button class="btn-proximo" data-proximo="2b2">Roxo</button>
+            <button class="btn-proximo" data-proximo="2b">Ciano</button>
+        </div>
+
+        <div class="passo" id="passo-2b2">
+            <img src="img/6.png" alt="" width="65%">
+            <button class="btn-proximo" data-proximo="2b">Verde</button>
+            <button class="btn-proximo" data-proximo="2b">Vermelho</button>
+            <button class="btn-proximo" data-proximo="2b">Roxo</button>
+            <button class="btn-proximo" data-proximo="2b3">Ciano</button>
+        </div>
+
+        <div class="passo" id="passo-2b3">
+            <img src="img/7.png" alt="" width="65%">
+            <button class="btn-proximo" data-proximo="2b4">Verde</button>
+            <button class="btn-proximo" data-proximo="2b">Vermelho</button>
+            <button class="btn-proximo" data-proximo="2b">Roxo</button>
+            <button class="btn-proximo" data-proximo="2b">Ciano</button>
+        </div>
+
+        <div class="passo" id="passo-2b4">
+            <img src="img/8.png" alt="" width="65%">
+            <p>Você escuta algo caindo.</p>
+            <button class="btn-flor" data-proximo="2">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-f1">
+            <img src="img/9.png" alt="" width="65%">
+            <button class="btn-flor" data-proximo="f2">Abrir a Gaveta</button>
+            <button class="btn-proximo" data-proximo="1">Ir para Direita</button>
+        </div>
+
+        <div class="passo" id="passo-f2">
+            <img src="img/10.png" alt="" width="65%">
+            <button class="btn-proximo" data-proximo="1">Ir para Direita</button>
+        </div>
+
+        <div class="passo" id="passo-f3">
+            <img src="img/11.png" alt="" width="65%">
+            <button class="btn-proximo" data-proximo="1">Ir para Direita</button>
+        </div>
+
+        <div class="passo" id="passo-final">
+            <p>Parabéns você escapou.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
